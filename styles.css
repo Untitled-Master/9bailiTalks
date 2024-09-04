@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #222831;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+h1 {
+    color: #FFD369;
+}
+
+input[type="text"] {
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+button {
+    background-color: #FFD369;
+    border: none;
+    border-radius: 4px;
+    color: #222831;
+}
+
+button:hover {
+    background-color: #ffbf00; /* Slightly darker shade for hover effect */
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.definition {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #393E46;
+}
+
+.definition h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #FFD369;
+}
+
+.definition p {
+    margin: 0;
+    color: #EEEEEE;
+}
+
+.example {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+.modal-content {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.modal-header .close {
+    color: #FFD369;
+}
